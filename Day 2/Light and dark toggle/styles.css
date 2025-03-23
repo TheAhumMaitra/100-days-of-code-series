@@ -1,0 +1,69 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    width: auto;
+    height: 9vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: blueviolet;
+    color: white;
+}
+nav h2{
+    margin-right: auto;
+    margin-left: 5px;
+}
+nav ul{
+    display: flex;
+}
+nav ul li{
+    list-style-type: none;
+    margin-right: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+nav a{
+    text-decoration: none;
+    color: white;
+}
+#content{
+    height: auto;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 20vh;
+    margin: 20px;
+    justify-content: center;
+    align-items: center;
+}
+#darkmode:hover{
+ color: purple;
+ cursor: pointer;
+}
+
+
+
+
+/* dark and white mode  */
+/* 🌙 Dark mode styles */
+.dark-mode {
+    background-color: #121212;
+    color: #f0f0f0;
+}
+
+/* Optional: Dark mode nav bar */
+.dark-mode nav {
+    background-color: #333;
+    color: #fff;
+}
+
+.dark-mode nav a {
+    color: #f0f0f0;
+}
+
+/* Optional: Dark hover */
+.dark-mode #darkmode:hover {
+    color: #ddd;
+}
